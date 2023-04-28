@@ -1264,7 +1264,19 @@ footer{
 
 }
 
-
+@media screen and (width: 390px){
+  #logo{
+    width: 35%;
+    height: 60%;
+    display: inline;
+    padding-left: 2vw;
+    padding-top: 4%;
+  }
+  #mobile_menu_btn{
+    top: 4vw;
+    right: 3vw;
+  }
+}
 
 
 /*-----------------------------------------------------------------------------------------------------------*/
