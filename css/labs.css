@@ -505,11 +505,10 @@ form .com{
   }
   #main_img{
     display: inline;
-    width: 35%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
     height: auto;
-    float: left;
-    margin-right:2vw;
-    margin-bottom:0.5vw;
     top:50%;
     filter: brightness(80%);
     border-top-left-radius: 2vw;
@@ -529,6 +528,7 @@ form .com{
   #main_text{
     padding: 2vw;
     padding-left: 0;
+    padding-right: 0;
     margin: 0;
     height: auto;
     width: 100%;
@@ -547,13 +547,13 @@ form .com{
   }
   p.main{
     margin: 0;
-    margin-left: 5%;
     margin-top: 2%;
+    margin-left: 5%;
     width: 90%;
     font-size: 4vw;
     line-height: 5vw;
     color: rgba(254,228,195,1);
-    text-align: left;
+    text-align: center;
   }
   #services_ul{
     width: 76%;
