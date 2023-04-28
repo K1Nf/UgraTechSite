@@ -1188,7 +1188,7 @@ z-index: 401;
   .nav_menu{
     display: block;
     visibility: visible;
-    margin-top: 47%;
+    margin-top: 25%;
   }
   
 /* @keyframes flareAnimation {
@@ -1261,10 +1261,9 @@ footer{
   left: -90%;
 }
 
-
 }
 
-@media screen and (width: 390px){
+@media screen and (width: 390px) and (height: 844px){
   #logo{
     width: 35%;
     height: 60%;
@@ -1275,6 +1274,96 @@ footer{
   #mobile_menu_btn{
     top: 4vw;
     right: 3vw;
+  }
+  .nav_menu{
+    margin-top: 50%;
+  }
+}
+
+@media screen and (width: 414px) and (height: 736px) {
+  #logo{
+    width: 30%;
+    height: 60%;
+    display: inline;
+    padding-left: 2vw;
+    padding-top: 3%;
+  }
+  #mobile_menu_btn{
+    top: 3vw;
+    right: 3vw;
+  }
+  .nav_menu{
+    margin-top: 40%;
+  }
+}
+
+@media screen and (width: 414px) and (height: 736px) {
+  #logo{
+    width: 30%;
+    height: 60%;
+    display: inline;
+    padding-left: 2vw;
+    padding-top: 3%;
+  }
+  #mobile_menu_btn{
+    top: 3vw;
+    right: 3vw;
+  }
+  .nav_menu{
+    margin-top: 30%;
+  }
+}
+
+@media screen and (width: 414px) and (height: 896px) {
+  #logo{
+    width: 38%;
+    height: 60%;
+    display: inline;
+    padding-left: 1vw;
+    padding-top: 3%;
+  }
+  #mobile_menu_btn{
+    top: 4vw;
+    right: 3vw;
+  }
+  .nav_menu{
+    margin-top: 45%;
+  }
+}
+
+@media screen and (width: 393px) and (height: 851px) {
+  #logo{
+    width: 38%;
+    height: 60%;
+    display: inline;
+    padding-left: 1vw;
+    padding-top: 3%;
+  }
+  #mobile_menu_btn{
+    top: 4vw;
+    right: 3vw;
+  }
+  .nav_menu{
+    margin-top: 40%;
+  }
+}
+
+@media screen and (width: 412px) and (height: 914px) {
+  #logo{
+    width: 37%;
+    height: 55%;
+    display: inline;
+    padding-left: 1vw;
+    padding-top: 4%;
+  }
+  #mobile_menu_btn{
+    width: 5vh;
+    height: 5vh;
+    top: 3.5vw;
+    right: 3vw;
+  }
+  .nav_menu{
+    margin-top: 50%;
   }
 }
 
