@@ -1000,3 +1000,64 @@ p.project_cart_t{
 .gal_p{
   font-size:1.6vw;
 }
+
+
+
+
+.testimonials {
+  height: 30vw;
+  margin-left: 16vw;
+  margin-right: 16vw;
+  padding: 15px;
+  text-align: center;
+  position: relative;
+  border: 1px solid rgba(51,29,78,1);
+}
+.scroller {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  display: flex;
+  scroll-snap-type: x mandatory;
+  height: 100%;
+}
+.item {
+  /*min-width: 100%;*/
+  scroll-snap-align: center;
+  background-color: rgba(51,59,78,1);
+  /*margin-bottom: 10px;*/
+  padding: 3%;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+.item img {
+  width: 47.75vw;
+  left:5%;
+  height: 100%;
+  border: solid 4px #ffffff;
+  z-index: 2;
+  border: 1px solid black;
+}
+.testimonials .btn {
+  position: absolute;
+  top: 50%;
+  margin-top: 20px;
+  height: 5%;
+  width: 5%;
+  border-radius: 15px;
+  background-color: rgba(95, 106, 117, 0.3);
+  z-index: 1;
+  line-height: 30px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+.testimonials .btn:hover{
+  background-color: rgba(95, 106, 117, 0.5);
+  cursor: pointer;
+}
+.testimonials .btn.next {
+  right: 15px;
+}
+.testimonials .btn.prev {
+  left: 15px;
+}

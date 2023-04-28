@@ -67,7 +67,22 @@
             <div id="main_text">
                <h1 class="main">Лаборатория "Бизнес решений" </h1>
                <div class="main_content">
-                  <p class="main"><img src="images/l2.jpg" id='main_img'alt="">Лаборатория "Бизнес решений" предназначена для разработки дизайн-проектов, конструкторской документации, создания демонстрационных макетов, удобных и профессиональных веб-сайтов, мобильных приложений и лендинга страницы. </p>
+                  <div class="testimonials">
+                     <div class="scroller">
+                        <div class="item">
+                           <img src="images/lab_2/photo2.jpeg" alt="Elise" class="imgs">
+                        </div>
+                        <div class="item">
+                              <img src="images/lab_2/photo1.jpeg" alt="John" class="imgs">
+                        </div>
+                        <div class="item">
+                            <img src="images/lab_2/photo3.jpeg" alt="Imani" class="imgs">
+                        </div>
+                     </div>
+                     <span class="btn prev buttons">&lt;</span>
+                     <span class="btn next buttons">&gt;</span>
+                  </div>
+                  <p class="main">Лаборатория "Бизнес решений" предназначена для разработки дизайн-проектов, конструкторской документации, создания демонстрационных макетов, удобных и профессиональных веб-сайтов, мобильных приложений и лендинга страницы. </p>
 
                   <p class="main">Лаборатория оснащена современными компьютерами, мониторами, графическими планшетами и телефонами, которые способствуют достижению хороших результатов в работе.</p>
                </div>
@@ -199,6 +214,36 @@
       }
       //
       window.onscroll = scr
+
+
+      // Скроллинг фотографий лабораторий//
+
+      const testimonials = document.querySelector('.testimonials');
+      const scroller = testimonials.querySelector('.scroller');
+      const nextBtn = testimonials.querySelector('.btn.next');
+      const prevBtn = testimonials.querySelector('.btn.prev');
+      const itemWidth = testimonials.querySelector('.item').clientWidth;
+
+      nextBtn.addEventListener('click', scrollToNextItem);
+      prevBtn.addEventListener('click', scrollToPrevItem);
+
+      function scrollToNextItem() {
+         if(scroller.scrollLeft < (scroller.scrollWidth - itemWidth))
+            // The scroll position is not at the beginning of last item
+            scroller.scrollBy({left: itemWidth, top: 0, behavior:'smooth'});
+         else
+            // Last item reached. Go back to first item by setting scroll position to 0
+            scroller.scrollTo({left: 0, top: 0, behavior:'smooth'});
+        }
+      function scrollToPrevItem() {
+         if(scroller.scrollLeft != 0)
+            // The scroll position is not at the beginning of first item
+            scroller.scrollBy({left: -itemWidth, top: 0, behavior:'smooth'});
+         else
+            // This is the first item. Go to last item by setting scroll position to scroller width
+            scroller.scrollTo({left: scroller.scrollWidth, top: 0, behavior:'smooth'});
+        }
+         // Скроллинг фотографий лабораторий//
 
    </script>
 </html>
