@@ -264,26 +264,18 @@ h1.line_1{
   margin-top: 2vh;
   background-color: rgba(51,59,70,1);
   width: 90%;
-  margin-left: 5%;
   margin-right: 5%;
+  margin-left: 5%;
   border-radius: 2vw;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
 }
-#services_ul{
-  width: 76%;
-  margin-left: 12%;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-.services_li{
-  display:block;
-  width: 100%;
-  list-style-type:none;
-  margin-top: 2%;
-}
-.services_li p{
-    font-size: 2vw;
-    line-height: 2.3vw;
-    color: rgba(254,228,195,1);
+#services_block p{
+  font-size: 2vw;
+  line-height: 2.3vw;
+  margin-left: 5%;
+  width: 90%;
+  color: rgba(254,228,195,1);
 }
 footer{
   margin-top: 2vh;
@@ -524,8 +516,8 @@ form .com{
     margin-top: 2vh;
     background-color: rgba(51,59,70,1);
     height: auto !important;
-    width: 94%;
-    margin-left: 3%;
+    width: 90%;
+    margin-left: 5%;
     height: 85vh;
     border-radius: 2vw;
   }
@@ -552,27 +544,12 @@ form .com{
   p.main{
     margin: 0;
     margin-top: 2%;
-    margin-left: 5%;
-    width: 90%;
+    margin-left: 10%;
+    width: 80%;
     font-size: 4vw;
-    line-height: 6vw;
+    line-height: 5vw;
     color: rgba(254,228,195,1);
     text-align: center;
-  }
-  #services_ul{
-    width: 76%;
-    margin-left: 12%;
-  }
-  .services_li{
-    display:block;
-    width: 100%;
-    list-style-type:none;
-    margin-top: 2%;
-  }
-  .services_li p{
-    font-size: 4vw;
-    line-height: 6vw;
-    color: rgba(254,228,195,1);
   }
   #line_img_2{
     position: absolute;
@@ -586,6 +563,23 @@ form .com{
     margin-top: 1vh;
     width: 100%;
     height: 7vh;
+  }
+  #services_block{
+    margin-top: 2vh;
+    background-color: rgba(51,59,70,1);
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    border-radius: 2vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+  }
+  #services_block p{
+    font-size: 4vw;
+    line-height: 5vw;
+    margin-left: 10%;
+    width: 80%;
+    color: rgba(254,228,195,1);
   }
   li {
     width: 20vw;
