@@ -725,6 +725,7 @@ form .com{
     left: 5%;
     z-index: 5;
     font-size: 4vw;
+    line-height: 3.6vw;
     font-family: 'Commissioner', sans-serif;
   }
   p.lab_cart_t{
