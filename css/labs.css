@@ -503,13 +503,18 @@ form .com{
   footer p{
     font-size:2.8vw;
   }
+  p{
+    font-family: 'Commissioner', sans-serif;
+  }
   #main_img{
     display: inline;
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
+    margin-top: 3%;
+    margin-bottom: 5%;
     height: auto;
-    top:50%;
+    
     filter: brightness(80%);
     border-top-left-radius: 2vw;
     border-bottom-left-radius: 2vw;
