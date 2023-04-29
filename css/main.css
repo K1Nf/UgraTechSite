@@ -417,8 +417,9 @@ li p {
 
 #contacs p{
   margin-top: 5%;
-  padding-left: 15%;
+  padding-left: 16%;
   font-size: 3vw;
+  color: rgba(254,228,195,1);
 }
 
 #contacs input,
