@@ -301,15 +301,8 @@ form .com{
   border-radius: 2vw;
   padding-bottom: 5%;
 }
-.project_page{
-  margin-left: 5%;
-  width: 90%;
-  background-color: blue;
-}
-
 #main h1{
   width: 100%;
-  margin-top: 2%;
   text-align: center;
   font-size: 2.15vw;
   color: rgba(255,255,255,1);
@@ -670,6 +663,79 @@ form .com{
     visibility: visible;
     margin-top: 25%;
   }
+  #main h1{
+    width: 100%;
+    text-align: center;
+    font-size: 4vw;
+    color: rgba(255,255,255,1);
+    font-family: 'Commissioner', sans-serif;
+  }
+
+  #main p{
+    margin: 0;
+    margin-left: 5%;
+    margin-top: 2%;
+    width: 90%;
+    line-height: 5vw;
+    font-size: 4vw;
+    color: rgba(254,228,195,1);
+    text-align: center;
+  }
+  /* Листающаяся галлерея фотографий */
+
+  .testimonials{
+    height: 40vw;
+    margin-left: 7vw;
+    margin-right: 7vw;
+    padding: 15px;
+    text-align: center;
+    position: relative;
+  }
+  .scroller{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: flex;
+    scroll-snap-type: x mandatory;
+    height: 100%;
+  }
+  .item{
+    scroll-snap-align: center;
+    padding: 3%;
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+  .item img{
+    width: 56vw;
+    left:5%;
+    height: 100%;
+    border: solid 4px #ffffff;
+    z-index: 2;
+    border: 1px solid black;
+  }
+  .testimonials .btn{
+    position: absolute;
+    top: 35%;
+    height: 8%;
+    width: 8%;
+    border-radius: 15px;
+    background-color: rgba(95, 106, 117, 0.3);
+    z-index: 1;
+    line-height: 100%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+  }
+  .testimonials .btn:hover{
+    background-color: rgba(95, 106, 117, 0.5);
+    cursor: pointer;
+  }
+  .testimonials .btn.next{
+    right: 7px;
+  }
+  .testimonials .btn.prev{
+    left: 7px;
+  }
+  /* Листающаяся галлерея фотографий */
 }
 
 @media screen and (width: 414px) and (height: 736px) { /*iPhone 6/7/8 Plus*/
