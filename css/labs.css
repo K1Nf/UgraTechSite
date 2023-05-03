@@ -678,43 +678,51 @@ form .com{
     scale: 2;
   }
   /* МОДАЛЬНОЕ ОКНО */
-  #contacs {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 40%;
-    width: 80%;
-    background: linear-gradient(132deg, #f8f8f6, #f1efdc, #e8ebe4);
-    animation: Gradient 15s ease infinite;
-    overflow: hidden;
-    font-family: 'Commissioner', sans-serif;
-  }
+ #contacs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40%;
+  width: 80%;
+  /* background: linear-gradient(132deg, #f8f8f6, #f1efdc, #e8ebe4);
+  animation: Gradient 15s ease infinite; */
+  background-image: url("../images/back_con2.jpg");
+  overflow: hidden;
+  font-family: 'Commissioner', sans-serif;
+}
+
   #contacs p{
     margin-top: 3%;
-    padding-left: 13%;
+    padding-left: 15%;
     font-size: 5vw;
   }
+
   #contacs input{
     margin: 2%;
     width: 90%;
     height: 50%;
   }
+
   #contacs form{
     height: 25%;
-    padding-left: 10%;
+    padding-left: 8%;
   }
 
-form .com{
-  height: 100%!important;
+  form .com{
+    height: 100%!important;
+  }
+
+  #contacs input,textarea{
+    margin: 2%;
+    width: 90%;
+    height: 60%;
+  }
+
+.send{
+  font-size: 4vw;
 }
 
-#contacs input,
-textarea{
-  margin: 2%;
-  width: 90%;
-  height: 60%;
-}
- /* МОБИЛЬНОЕ МЕНЮ */
+/* МОДАЛЬНОЕ ОКНО */
 
 #mobile_menu_btn{
   display: block;
