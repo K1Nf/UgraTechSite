@@ -37,7 +37,9 @@ body{
 }
 
 .menu_btn:hover {
+
   color:#fee4c3;
+
   font-size: 1.2vw;
   transition: color 0.3s linear;
 }
@@ -84,7 +86,6 @@ ul{
   display: inline-block;
   width: 60vw;
   margin-top: 3vh;
-  
   padding: 1.5vw;
   overflow: hidden;
   list-style-type: none;
@@ -438,26 +439,11 @@ form .com{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media screen and (min-width: 100px) and (max-width: 480px){
   header{
     /* position: fixed;   */
-    top: 0;  
-    z-index: 100; 
+    top: 0;
+    z-index: 100;
     width: 100%;
     background-color:rgba(51,59,70,1);
     text-align: center;
@@ -778,8 +764,8 @@ z-index: 401;
   font-size: 7vw;
   margin-top: 15%;
   margin-left: 5%;
-  position: relative; 
-  overflow-x: hidden; 
+  position: relative;
+  overflow-x: hidden;
   height: 7vh;
   background: linear-gradient(45deg, #e4e4b2 22%, #ffffff 55%, #ced6a1);
   -webkit-background-clip: text;
@@ -817,7 +803,7 @@ z-index: 401;
    color:#ffffff;
   /* color: #000000; */ 
   font-weight: 700;
- 
+
 }
 .nav_link p{
   font-size: 5vw;
@@ -838,11 +824,11 @@ z-index: 401;
   top: 0;
   height: 100%;
   width: 45px;
-  transform: skewX(-45deg); 
+  transform: skewX(-45deg);
   animation: flareAnimation;
   left: -150%;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.4));
-  animation: flareAnimation 3s infinite linear; 
+  animation: flareAnimation 3s infinite linear;
 }
 
 .nav_footer .flare {
@@ -850,11 +836,11 @@ z-index: 401;
   top: 0;
   height: 100%;
   width: 45px;
-  transform: skewX(-45deg); 
+  transform: skewX(-45deg);
   animation: flareAnimation;
   left: -150%;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.4));
-  animation: flareAnimation 3s infinite linear; 
+  animation: flareAnimation 3s infinite linear;
 }
 
 .nav_menu .flare {
@@ -862,12 +848,13 @@ z-index: 401;
   top: 0;
   height: 100%;
   width: 45px;
-  transform: skewX(-45deg); 
+  transform: skewX(-45deg);
   animation: flareAnimation;
   left: -150%;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1), rgba(245, 189, 163, 0.4));
   animation: flareAnimation 3s infinite linear; 
 } */
+
 .nav_footer{
   border-top: 2px solid #fee4c3;
   display: inline;
@@ -876,19 +863,21 @@ z-index: 401;
   position: absolute;
   bottom:2%;
   }
-  
+
   .nav_footer img{
     margin-top: 6%;
     width: 40vw;
     }
-  
+
   .nav_menu{
     display: block;
     visibility: visible;
     margin-top: 25%;
   }
+
   
 /* @keyframes flareAnimation {
+
   0% {
       left: -150%;
   }
@@ -1177,3 +1166,4 @@ p.project_cart_t{
     margin-top: 32%;
   }
 }
+
