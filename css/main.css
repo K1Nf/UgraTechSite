@@ -419,12 +419,13 @@ li p {
   margin-top: 5%;
   padding-left: 15%;
   font-size: 3vw;
+  color:#fee4c3;
 }
 
 #contacs input,
 textarea{
   margin: 2%;
-  margin-left: -10%;
+  margin-left: -11%;
   width: 90%;
   height: 20%;
 }
@@ -440,7 +441,7 @@ form .com{
 }
 
 
-.cube {
+/* .cube {
   position: absolute;
   top: 8vh;
   left: 4vw;
@@ -478,7 +479,7 @@ form .com{
   animation-delay: 7s;
   left: 5vw;
   top: 50vh;
-}
+} */
 
 .send {
   width: 20%;
@@ -1138,7 +1139,7 @@ z-index: 401;
   
 }
 
-.nav_link .flare {
+/* .nav_link .flare {
   position: absolute;
   top: 0;
   height: 100%;
@@ -1172,7 +1173,7 @@ z-index: 401;
   left: -150%;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1), rgba(245, 189, 163, 0.4));
   animation: flareAnimation 3s infinite linear; 
-}
+} */
 .nav_footer{
   border-top: 2px solid #fee4c3;
   display: inline;
@@ -1208,7 +1209,7 @@ header{
 footer{
   display: none;
 }
-
+/* 
 #line_img_3{
   position: absolute;
   width: 150%;
@@ -1261,7 +1262,7 @@ footer{
   z-index: 4;
   top: 32vh;
   left: -90%;
-}
+} */
 
 }
 
@@ -1276,6 +1277,8 @@ footer{
   #mobile_menu_btn{
     top: 3vw;
     right: 3vw;
+    background-position-x: -0.02%;
+    background-position-y: 0.3vh;
   }
   .nav_menu{
     margin-top: 30%;
@@ -1290,6 +1293,8 @@ footer{
   }
   #mobile_menu_btn{
     top: 3vw;  
+    background-position-x: -0.02%;
+    background-position-y: 0.48vh;
   }
   .nav_menu{
     margin-top: 45%;
@@ -1308,6 +1313,8 @@ footer{
     width: 5vh;
     height: 5vh;
     top: 3.5vw;
+    background-position-x: -0.02%;
+    background-position-y: 0.47vh;
   }
   .nav_menu{
     margin-top: 50%;
@@ -1317,7 +1324,7 @@ footer{
 @media screen and (min-width: 280px) and (max-width: 375px) and (min-height: 568px) and (max-height: 670px){ /*Galaxy Fold*/
   #logo{
     width: 32%;
-    height: 55%;
+    height: 60%;
   }
   #mobile_menu_btn{
     width: 6vh;
@@ -1328,7 +1335,6 @@ footer{
     margin-top: 32%;
   }
 }
-
 
 
 /*-----------------------------------------------------------------------------------------------------------*/
